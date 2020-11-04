@@ -1,6 +1,6 @@
 del *.zip
 rmdir /Q /S site
-dotnet publish -o site -r linux-x64 --self-contained false
+dotnet publish -o site
 cd site
 zip -r ../site.zip *
 cd ..

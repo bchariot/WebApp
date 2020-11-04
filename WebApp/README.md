@@ -6,6 +6,11 @@ Services -> Elastic Beanstalk -> Create Application
 - Sample application
 - Create application
 
+Upload and Deploy
+- choose file "WebApp.zip"
+- version label: WebApp
+- deploy
+
 Create distribution:
 
 C:\FSharp\WebApp\WebApp> ./publish.bat
