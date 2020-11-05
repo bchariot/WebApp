@@ -13,7 +13,7 @@ type VotesController () =
     member __.Get() =
         "no information for this page"
 
-    [<HttpGet("{id}")>]
+    [<HttpGet>]
     [<Route("/{id}")>]
     member __.Get(id:string) =
         match id with
